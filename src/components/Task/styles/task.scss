@@ -1,0 +1,36 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+
+.task {
+  align-content: center;
+  border-bottom: 1px solid $border-color;
+  color: $task-color;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 1.5rem;
+}
+
+.dark-task {
+  color: $dark-border-checkmark;
+  border-color: $dark-border-checkmark;
+}
+
+.delete-task {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.task-content {
+  align-self: center;
+  font-family: $font-jose;
+  font-size: 1rem;
+  margin: 0;
+  margin-left: 10px;
+  max-width: 60%;
+  word-wrap: break-word;
+}

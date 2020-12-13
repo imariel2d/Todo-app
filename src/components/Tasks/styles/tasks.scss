@@ -1,0 +1,8 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/fonts.scss";
+
+#no-tasks {
+  color: $task-color;
+  font-family: $font-jose;
+  padding-top: 1rem;
+}

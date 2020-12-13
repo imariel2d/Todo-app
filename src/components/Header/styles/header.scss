@@ -1,0 +1,44 @@
+@import "../../../styles/fonts.scss";
+
+.header-container {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 10rem 20px;
+  padding-top: 2rem;
+}
+
+.header-light {
+  background-image: url("../../../images/bg-mobile-light.jpg");
+}
+
+.header-dark {
+  background-image: url("../../../images/bg-desktop-dark.jpg");
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#todo-title {
+  color: white;
+  font-family: $font-jose;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    background-image: url("../../../images/bg-desktop-light.jpg");
+  }
+
+  .header-dark {
+    background-image: url("../../../images/bg-desktop-dark.jpg");
+  }
+
+  .header-content {
+    margin: 0 auto;
+    padding-top: 6rem;
+    width: 50%;
+  }
+}
